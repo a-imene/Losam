@@ -1,4 +1,63 @@
- .card {
+ul{
+  list-style:  none;
+}
+.chez {
+  text-align: left;
+}
+a{
+  text-decoration: none;
+}
+footer{
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.card {
   position: relative;
   width: 300px;
 }
@@ -24,4 +83,99 @@
 
 .card:hover .overlay {
   opacity: 1;
+}
+
+.losam-about {
+  font-family: "Jost", sans-serif;
+  font-weight: 300;
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 60px 24px;
+  text-align: center;
+}
+
+.losam-about__tag {
+  font-size: 10px;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: #c8a96e;
+  margin-bottom: 12px;
+}
+
+.losam-about__title {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 2rem;
+  font-weight: 300;
+  color: #1a1a1a;
+  margin: 0 0 14px;
+}
+
+.losam-about__title em {
+  font-style: italic;
+  color: #c8a96e;
+}
+
+.losam-about__desc {
+  font-size: 13px;
+  line-height: 1.75;
+  color: #888;
+  max-width: 480px;
+  margin: 0 auto 32px;
+}
+
+.losam-about__row {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  flex-wrap: wrap;
+  margin-bottom: 32px;
+  padding-bottom: 32px;
+  border-bottom: 1px solid #f0e6ea;
+}
+
+.losam-about__item {
+  font-size: 12px;
+  color: #aaa;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.losam-about__item strong {
+  font-size: 13px;
+  font-weight: 400;
+  color: #1a1a1a;
+}
+
+.losam-about__icon {
+  color: #c8a96e;
+  font-size: 18px;
+  line-height: 1;
+}
+
+.losam-about__quote {
+  font-family: "Cormorant Garamond", serif;
+  font-style: italic;
+  font-size: 1.1rem;
+  color: #999;
+  margin: 0 0 8px;
+}
+
+.losam-about__brand {
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #c8a96e;
+}
+
+/* Responsive mobile */
+@media (max-width: 480px) {
+  .losam-about__row {
+    gap: 20px;
+  }
+
+  .losam-about__title {
+    font-size: 1.6rem;
+  }
 }
